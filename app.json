@@ -1,0 +1,213 @@
+{
+	"metadata": {
+		"type": "App"
+	},
+	"project": {
+		"renderer": "WebGLRenderer",
+		"shadows": true,
+		"shadowType": 1,
+		"toneMapping": 7,
+		"toneMappingExposure": 1
+	},
+	"camera": {
+		"metadata": {
+			"version": 4.7,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"object": {
+			"uuid": "b6e73a01-6af6-4e10-9c5a-2cf450f71ea7",
+			"type": "PerspectiveCamera",
+			"name": "PerspectiveCamera",
+			"layers": 1,
+			"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,2.473,7.374722443653448,1],
+			"up": [0,1,0],
+			"fov": 50,
+			"zoom": 1,
+			"near": 0.1,
+			"far": 2000,
+			"focus": 10,
+			"aspect": 1.6846590909090908,
+			"filmGauge": 35,
+			"filmOffset": 0
+		}
+	},
+	"controls": {
+		"center": [8.151927868952912,2.6912373509738274,-0.1938313696334431]
+	},
+	"scene": {
+		"metadata": {
+			"version": 4.7,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"geometries": [
+			{
+				"uuid": "054be165-b320-472d-b38e-5b4c12f94d5c",
+				"type": "BufferGeometry",
+				"data": {
+					"attributes": {
+						"position": {
+							"itemSize": 3,
+							"type": "Float32Array",
+							"array": [-1,0,1,-1,0,1,-1,0,1,1,0,1,1,0,1,1,0,1,-1,0,-1,-1,0,-1,-1,0,-1,1,0,-1,1,0,-1,1,0,-1,-1,1.007691502571106,1,-1,1.007691502571106,1,-1,1.007691502571106,1,1,1.007691502571106,1,1,1.007691502571106,1,1,1.007691502571106,1,-1,1.007691502571106,-1,-1,1.007691502571106,-1,-1,1.007691502571106,-1,1,1.007691502571106,-1,1,1.007691502571106,-1,1,1.007691502571106,-1,-0.18167611956596375,0.07308584451675415,1,-0.18167611956596375,0.07308584451675415,1,-0.18167611956596375,0.07308584451675415,1,0.18167611956596375,0.07308584451675415,1,0.18167611956596375,0.07308584451675415,1,0.18167611956596375,0.07308584451675415,1,-0.18167611956596375,0.8579943776130676,1,-0.18167611956596375,0.8579943776130676,1,-0.18167611956596375,0.8579943776130676,1,0.18167611956596375,0.8579943776130676,1,0.18167611956596375,0.8579943776130676,1,0.18167611956596375,0.8579943776130676,1,-0.9538121819496155,0.046187810599803925,0.9538115859031677,-0.9538121819496155,0.046187810599803925,0.9538115859031677,-0.9538121819496155,0.046187810599803925,0.9538115859031677,-0.9538121819496155,0.046187810599803925,0.9538115859031677,0.9538121819496155,0.046187810599803925,0.9538115859031677,0.9538121819496155,0.046187810599803925,0.9538115859031677,0.9538121819496155,0.046187810599803925,0.9538115859031677,0.9538121819496155,0.046187810599803925,0.9538115859031677,-0.9538120031356812,0.04618801921606064,-0.9538120031356812,-0.9538120031356812,0.04618801921606064,-0.9538120031356812,-0.9538120031356812,0.04618801921606064,-0.9538120031356812,0.9538120031356812,0.04618801921606064,-0.9538120031356812,0.9538120031356812,0.04618801921606064,-0.9538120031356812,0.9538120031356812,0.04618801921606064,-0.9538120031356812,-0.9434314370155334,1.007691502571106,0.9434314370155334,-0.9434314370155334,1.007691502571106,0.9434314370155334,-0.9434314370155334,1.007691502571106,0.9434314370155334,0.9434314370155334,1.007691502571106,0.9434314370155334,0.9434314370155334,1.007691502571106,0.9434314370155334,0.9434314370155334,1.007691502571106,0.9434314370155334,-0.9434314370155334,1.007691502571106,-0.9434314370155334,-0.9434314370155334,1.007691502571106,-0.9434314370155334,-0.9434314370155334,1.007691502571106,-0.9434314370155334,0.9434314370155334,1.007691502571106,-0.9434314370155334,0.9434314370155334,1.007691502571106,-0.9434314370155334,0.9434314370155334,1.007691502571106,-0.9434314370155334,-0.18167611956596375,0.07308584451675415,0.9200000166893005,-0.18167611956596375,0.07308584451675415,0.9200000166893005,-0.18167611956596375,0.07308584451675415,0.9200000166893005,-0.18167611956596375,0.07308584451675415,0.9200000166893005,0.18167611956596375,0.07308584451675415,0.9200000166893005,0.18167611956596375,0.07308584451675415,0.9200000166893005,0.18167611956596375,0.07308584451675415,0.9200000166893005,0.18167611956596375,0.07308584451675415,0.9200000166893005,-0.18167611956596375,0.8579943776130676,0.9200000166893005,-0.18167611956596375,0.8579943776130676,0.9200000166893005,-0.18167611956596375,0.8579943776130676,0.9200000166893005,0.18167611956596375,0.8579943776130676,0.9200000166893005,0.18167611956596375,0.8579943776130676,0.9200000166893005,0.18167611956596375,0.8579943776130676,0.9200000166893005],
+							"normalized": false
+						},
+						"normal": {
+							"itemSize": 3,
+							"type": "Float32Array",
+							"array": [0,0,1,0,-1,0,-1,0,0,0,0,1,0,-1,0,1,0,0,0,0,-1,0,-1,0,-1,0,0,0,0,-1,0,-1,0,1,0,0,0,0,1,0,1,0,-1,0,0,0,0,1,0,1,0,1,0,0,0,0,-1,0,1,0,-1,0,0,0,0,-1,0,1,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,1,0,1,0,-1,0,0,0,0,1,0,-1,0,1,0,0,0,0,1,0,-1,0,-1,0,0,0,0.012400287203490734,-0.9999231100082397,0,1,0,0,-0.7825633883476257,-0.6225709319114685,0.9999417066574097,-0.010800451040267944,0,0,0.012400287203490734,-0.9999231100082397,0,1,0,0,-0.7825633883476257,-0.6225709319114685,-0.9999417066574097,-0.010800451040267944,0,0,1,0,0,-0.010800451040267944,0.9999417066574097,0.9999417066574097,-0.010800451040267944,0,0,1,0,0,-0.010800451040267944,0.9999417066574097,-0.9999417066574097,-0.010800451040267944,0,0,0.012400287203490734,-0.9999231100082397,0,1,0,0.9999417066574097,-0.010800451040267944,0,0,0.012400287203490734,-0.9999231100082397,0,1,0,-0.9999417066574097,-0.010800451040267944,0,0,1,0,0,-0.010800451040267944,0.9999417066574097,0.9999417066574097,-0.010800451040267944,0,0,1,0,0,-0.010800451040267944,0.9999417066574097,-0.9999417066574097,-0.010800451040267944,0,0,0.012400287203490734,-0.9999231100082397,0,1,0,0,-0.7825633883476257,-0.6225709319114685,1,0,0,0,0.012400287203490734,-0.9999231100082397,0,1,0,0,-0.7825633883476257,-0.6225709319114685,-1,0,0,0,0.012400287203490734,-0.9999231100082397,0,-1,0,1,0,0,0,0.012400287203490734,-0.9999231100082397,0,-1,0,-1,0,0],
+							"normalized": false
+						},
+						"uv": {
+							"itemSize": 2,
+							"type": "Float32Array",
+							"array": [0,1,0,1,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,1,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0.4091619551181793,1,0.4091619551181793,1,0.4091619551181793,1,0.5908380746841431,1,0.5908380746841431,1,0.5908380746841431,1,0.4091619551181793,1,0.4091619551181793,1,0.4091619551181793,1,0.5908380746841431,1,0.5908380746841431,1,0.5908380746841431,1,0,1,0,1,0,1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,1,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0.4091619551181793,1,0.4091619551181793,1,0.4091619551181793,1,0.4091619551181793,1,0.5908380746841431,1,0.5908380746841431,1,0.5908380746841431,1,0.5908380746841431,1,0.4091619551181793,1,0.4091619551181793,1,0.4091619551181793,1,0.5908380746841431,1,0.5908380746841431,1,0.5908380746841431,1],
+							"normalized": false
+						}
+					},
+					"index": {
+						"type": "Uint16Array",
+						"array": [1,7,10,1,10,4,5,11,23,5,23,17,8,2,14,8,14,20,9,6,18,9,18,21,33,27,3,12,0,24,12,24,30,33,3,15,12,30,33,15,12,33,24,0,3,24,3,27,37,41,47,37,47,44,43,55,61,43,61,49,46,58,52,46,52,39,48,60,57,48,57,45,40,66,73,70,62,36,53,40,73,70,36,50,53,73,70,70,50,53,64,68,42,64,42,38,16,22,59,16,59,54,19,13,51,19,51,56,22,19,56,22,56,59,29,35,75,29,75,69,13,16,54,13,54,51,32,26,65,32,65,72,34,31,71,34,71,74,25,28,67,25,67,63]
+					},
+					"boundingSphere": {
+						"radius": 1.5012862955107875,
+						"center": [0,0.503845751285553,0]
+					}
+				}
+			},
+			{
+				"uuid": "ad9900c2-617f-40e0-9435-e186a5dc45d5",
+				"type": "PlaneGeometry",
+				"width": 1,
+				"height": 1,
+				"widthSegments": 1,
+				"heightSegments": 1
+			}],
+		"materials": [
+			{
+				"uuid": "c26e8934-4826-402b-9d43-4153cdab6ccb",
+				"type": "MeshStandardMaterial",
+				"color": 16777215,
+				"roughness": 1,
+				"metalness": 1,
+				"emissive": 0,
+				"envMapRotation": [0,0,0,
+					"XYZ"],
+				"envMapIntensity": 1,
+				"blendColor": 0
+			},
+			{
+				"uuid": "9e823b61-b9af-4eee-82d4-1ddeaa5a1dda",
+				"type": "MeshStandardMaterial",
+				"color": 16777215,
+				"roughness": 1,
+				"metalness": 0,
+				"emissive": 0,
+				"envMapRotation": [0,0,0,
+					"XYZ"],
+				"envMapIntensity": 1,
+				"blendColor": 0
+			}],
+		"object": {
+			"uuid": "b04a824b-7b9e-441a-a1ba-0ba7e6001eab",
+			"type": "Scene",
+			"name": "bilik2.glb",
+			"layers": 1,
+			"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+			"up": [0,1,0],
+			"children": [
+				{
+					"uuid": "8cc8c34d-2965-4a7b-b28a-cf772999d596",
+					"type": "Mesh",
+					"name": "Plane",
+					"userData": {
+						"collidable": true
+					},
+					"layers": 1,
+					"matrix": [5.504301071166992,0,0,0,0,5.504301071166992,0,0,0,0,5.504301071166992,0,0,0,0,1],
+					"up": [0,1,0],
+					"geometry": "054be165-b320-472d-b38e-5b4c12f94d5c",
+					"material": "c26e8934-4826-402b-9d43-4153cdab6ccb"
+				},
+				{
+					"uuid": "54a52018-5792-4bcf-92c0-81cdb6567791",
+					"type": "Object3D",
+					"name": "DirectionalLight Target",
+					"layers": 1,
+					"matrix": [2,0,0,0,0,2,0,0,0,0,2,0,0,0,-0.7288517481423078,1],
+					"up": [0,1,0]
+				},
+				{
+					"uuid": "b280d54e-25c8-4f01-9301-7658820aa786",
+					"type": "DirectionalLight",
+					"name": "DirectionalLight",
+					"layers": 1,
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-0.3187346124393522,10,0.08825494058873717,1],
+					"up": [0,1,0],
+					"color": 14290960,
+					"intensity": 50,
+					"shadow": {
+						"camera": {
+							"uuid": "c879792d-4d45-45df-82ad-4a8c03069564",
+							"type": "OrthographicCamera",
+							"layers": 1,
+							"up": [0,1,0],
+							"zoom": 1,
+							"left": -5,
+							"right": 5,
+							"top": 5,
+							"bottom": -5,
+							"near": 0.5,
+							"far": 500
+						}
+					},
+					"target": "54a52018-5792-4bcf-92c0-81cdb6567791"
+				},
+				{
+					"uuid": "b6e73a01-6af6-4e10-9c5a-2cf450f71ea7",
+					"type": "PerspectiveCamera",
+					"name": "PerspectiveCamera",
+					"layers": 1,
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,2.473,7.374722443653448,1],
+					"up": [0,1,0],
+					"fov": 50,
+					"zoom": 1,
+					"near": 0.1,
+					"far": 2000,
+					"focus": 10,
+					"aspect": 1.6846590909090908,
+					"filmGauge": 35,
+					"filmOffset": 0
+				},
+				{
+					"uuid": "8ff7393e-8882-48f9-8f5a-1e0418a679d5",
+					"type": "Mesh",
+					"name": "Plane",
+					"layers": 1,
+					"matrix": [4.440892098500626e-16,0,2,0,0,2,0,0,-2,0,4.440892098500626e-16,0,5.179875643524518,3.4518581918388125,0,1],
+					"up": [0,1,0],
+					"geometry": "ad9900c2-617f-40e0-9435-e186a5dc45d5",
+					"material": "9e823b61-b9af-4eee-82d4-1ddeaa5a1dda"
+				}],
+			"backgroundRotation": [0,0,0,
+				"XYZ"],
+			"environmentRotation": [0,0,0,
+				"XYZ"]
+		}
+	},
+	"scripts": {
+		"b6e73a01-6af6-4e10-9c5a-2cf450f71ea7": [
+			{
+				"name": "movement",
+				"source": "// Set once, e.g. right after creating the camera\ncamera.rotation.order = 'YXZ';\n\n// ============================\n// MOVEMENT\n// ============================\nlet moveForward = false;\nlet moveBackward = false;\nlet moveLeft = false;\nlet moveRight = false;\nconst speed = 0.05;\n\n// ============================\n// MOUSE ROTATION\n// ============================\nlet mouseDown = false;\nlet previousMouseX = 0;\nlet previousMouseY = 0;\nconst mouseSensitivity = 0.005;\n\n// ============================\n// COLLISION\n// ============================\nconst raycaster = new THREE.Raycaster();\nconst collisionBuffer = 0.5; // how close is \"too close\" to a wall\n\nfunction getCollidables() {\n    const objects = [];\n    scene.traverse((obj) => {\n        if (obj.userData && obj.userData.collidable) objects.push(obj);\n    });\n    return objects;\n}\n\nfunction canMove(direction, distance) {\n    raycaster.set(camera.position, direction);\n    const hits = raycaster.intersectObjects(getCollidables(), true);\n    if (hits.length === 0) return true;\n    return hits[0].distance > distance + collisionBuffer;\n}\n\n// ============================\n// KEYBOARD\n// ============================\nfunction keydown(event) {\n    if (event.code === 'KeyW') moveForward = true;\n    if (event.code === 'KeyS') moveBackward = true;\n    if (event.code === 'KeyA') moveLeft = true;\n    if (event.code === 'KeyD') moveRight = true;\n}\nfunction keyup(event) {\n    if (event.code === 'KeyW') moveForward = false;\n    if (event.code === 'KeyS') moveBackward = false;\n    if (event.code === 'KeyA') moveLeft = false;\n    if (event.code === 'KeyD') moveRight = false;\n}\n\n// ============================\n// MOUSE DOWN\n// ============================\nfunction pointerdown(event) {\n    mouseDown = true;\n    previousMouseX = event.clientX;\n    previousMouseY = event.clientY;\n}\n\n// ============================\n// MOUSE UP\n// ============================\nfunction pointerup(event) {\n    mouseDown = false;\n}\n\n// ============================\n// MOUSE MOVE\n// ============================\nfunction pointermove(event) {\n    if (!mouseDown) return;\n    const movementX = event.clientX - previousMouseX;\n    const movementY = event.clientY - previousMouseY;\n    camera.rotation.y -= movementX * mouseSensitivity;\n    camera.rotation.x -= movementY * mouseSensitivity;\n    camera.rotation.x = Math.max(-Math.PI / 2, Math.min(Math.PI / 2, camera.rotation.x));\n    previousMouseX = event.clientX;\n    previousMouseY = event.clientY;\n}\n\n// ============================\n// UPDATE\n// ============================\nconst forward = new THREE.Vector3();\nconst right = new THREE.Vector3();\n\nfunction update(event) {\n    forward.set(-Math.sin(camera.rotation.y), 0, -Math.cos(camera.rotation.y));\n    right.set(-forward.z, 0, forward.x);\n\n    if (moveForward && canMove(forward, speed)) {\n        camera.position.addScaledVector(forward, speed);\n    }\n    if (moveBackward) {\n        const back = forward.clone().negate();\n        if (canMove(back, speed)) camera.position.addScaledVector(back, speed);\n    }\n    if (moveLeft) {\n        const left = right.clone().negate();\n        if (canMove(left, speed)) camera.position.addScaledVector(left, speed);\n    }\n    if (moveRight && canMove(right, speed)) {\n        camera.position.addScaledVector(right, speed);\n    }\n}"
+			}],
+		"8ff7393e-8882-48f9-8f5a-1e0418a679d5": [
+			{
+				"name": "video",
+				"source": "let video, videoTexture, imageTexture, isPlaying = false;\n\nfunction init() {\n\n\timageTexture = this.material.map;\n\n\tvideo = document.createElement( 'video' );\n\tvideo.src = 'https://cdn.jsdelivr.net/gh/meershahmographer-bot/Test@main/Screen%20Recording%202026-02-03%20222655.mp4';\n\tvideo.crossOrigin = 'anonymous';\n\tvideo.loop = true;\n\tvideo.playsInline = true;\n\n\tvideoTexture = new THREE.VideoTexture( video );\n\tvideoTexture.colorSpace = THREE.SRGBColorSpace;\n\n}\n\nfunction pointerdown( event ) {\n\n\tconst raycaster = new THREE.Raycaster();\n\tconst pointer = new THREE.Vector2();\n\tconst rect = renderer.domElement.getBoundingClientRect();\n\tpointer.x = ( ( event.clientX - rect.left ) / rect.width ) * 2 - 1;\n\tpointer.y = - ( ( event.clientY - rect.top ) / rect.height ) * 2 + 1;\n\n\traycaster.setFromCamera( pointer, camera );\n\tconst intersects = raycaster.intersectObject( this, true );\n\n\tif ( intersects.length === 0 ) return;\n\n\tif ( ! isPlaying ) {\n\n\t\tthis.material.map = videoTexture;\n\t\tthis.material.needsUpdate = true;\n\t\tvideo.play();\n\t\tisPlaying = true;\n\n\t}\n\n}"
+			}]
+	},
+	"backgroundType": "Default",
+	"environmentType": "Default"
+}
